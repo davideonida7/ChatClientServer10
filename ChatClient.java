@@ -1,4 +1,7 @@
-class ChatClient {
+import java.io.*;
+import java.net.*;
+
+public class ChatClient {
     private int id;
     private Socket socket;
     private BufferedReader input;
